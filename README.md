@@ -92,9 +92,9 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 error: remote origin already exists.表示远程仓库已存在。  
 ```shell
 因此你要进行以下操作：  
-1、先输入git remote rm origin 删除关联的origin的远程库  
-2、关联自己的仓库 git remote add origin https://gitee.com/xxxxxx.git  
-3、最后git push origin master，这样就推送到自己的仓库了。  
+1.先输入git remote rm origin 删除关联的origin的远程库  
+2.关联自己的仓库 git remote add origin https://gitee.com/xxxxxx.git  
+3.最后git push origin master，这样就推送到自己的仓库了。  
 ```
 <img src="./assets/new-repository-with-code.png" width="100%" height="100%" style="display: block; margin: auto;" />
 
