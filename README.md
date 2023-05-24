@@ -73,7 +73,7 @@ $ git commit -m "initialize"
  create mode 100644 train.py
 ```
 
-7. 使用 `git remote add origin https://github.com/xdu-jjgs/pytorch-GAN` 将本地仓库与远程仓库关联在一起，使用 `git push -u origin master` 将本地仓库里的内容上传到远程仓库：
+5. 使用 `git remote add origin https://github.com/xdu-jjgs/pytorch-GAN` 将本地仓库与远程仓库关联在一起，使用 `git push -u origin master` 将本地仓库里的内容上传到远程仓库：
 
 ```shell
 $ git remote add origin https://github.com/xdu-jjgs/pytorch-GAN
@@ -88,7 +88,7 @@ To https://github.com/xdu-jjgs/pytorch-GAN
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
-8.如果你clone下来一个别人的仓库，在此基础上完成你的代码，推送到自己的仓库可能遇到如下问题：  
+6.如果你clone下来一个别人的仓库，在此基础上完成你的代码，推送到自己的仓库可能遇到如下问题：  
 error: remote origin already exists.表示远程仓库已存在。  
 ```shell
 因此你要进行以下操作：  
